@@ -1,0 +1,49 @@
+.image-carousel-container {
+    margin: 0 auto; /* Center the carousel */
+    max-width: 800px; /* Adjust the max-width to your preference */
+    position: relative;
+  }
+  
+  .slick-dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .slick-dots li button {
+    font-size: 12px;
+    line-height: 1.2;
+    display: block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border: none;
+    background: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  
+  .slick-dots li.slick-active button {
+    background: #007bff;
+    opacity: 1;
+    transform: scale(1.2);
+    transition: all 0.3s;
+  }
+  
+  .slick-slide img {
+    display: block;
+    margin: 0 auto; /* Center the image */
+    max-width: 100%; /* Make the image responsive */
+    max-height: 300px; /* Set a maximum height for the images */
+    object-fit: contain; /* Maintain aspect ratio while filling the container */
+  }
