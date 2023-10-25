@@ -76,7 +76,7 @@ const HomePage = () => {
           </ul>
         </div>
       </div>
-      
+
       <div className="footer">
         <p>&copy; 2023, KingCharlesVII</p>
         <a href="https://discord.gg/xTGT2auk">Join our Discord</a>

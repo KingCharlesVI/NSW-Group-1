@@ -17,7 +17,7 @@
 }
 
 .navbar {
-  background-color: #000;
+  background-color: #1e1e1e;
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -47,7 +47,7 @@
   position: relative;
   text-align: center;
   color: #fff;
-  background-image: url('https://i.imgur.com/hC5OCSP.png'); /* Adjust the path and image as needed */
+  background-image: url('https://i.imgur.com/n6O0jBB.png'); /* Adjust the path and image as needed */
   background-size: cover;
   background-position: center;
   padding: 0;
