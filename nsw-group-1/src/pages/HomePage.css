@@ -1,9 +1,4 @@
-html {
-  scroll-behavior: smooth;
-}
-
 .home-page {
-  padding: 20px;
   background-color: #1e1e1e; /* Dark grey background */
   color: #fff;
 }
@@ -18,8 +13,34 @@ html {
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 20px;
-  text-align: center;
   color: #ffffff;
+}
+
+.navbar {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-left h2 {
+  margin: 0;
+}
+
+.navbar-right a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.navbar-right a:hover {
+  text-decoration: underline;
+}
+
+.navbar-right .signup-link {
+  color: #007bff;
 }
 
 .home-page .banner {
@@ -29,12 +50,14 @@ html {
   background-image: url('https://i.imgur.com/hC5OCSP.png'); /* Adjust the path and image as needed */
   background-size: cover;
   background-position: center;
-  padding: 100px 0;
+  padding: 0;
+  margin: 0;
+  height: 75vh; /* Set height to 100 viewport height units */
 }
 
 .home-page .group-name {
   font-size: 48px;
-  margin-bottom: 20px;
+  margin-top: 12%;
 }
 
 .home-page .banner-buttons a {
@@ -47,18 +70,20 @@ html {
   border-radius: 5px;
   font-size: 16px;
   transition: background-color 0.3s ease, color 0.3s ease; /* Add a smooth transition */
+  cursor: pointer;
 }
 
 .home-page .banner-buttons a:hover {
   background-color: #ffffff; /* Change background color on hover */
   color: #000000; /* Change text color on hover */
+  cursor: pointer;
 }
 
 .home-page .section.card {
-  background-color: transparent; /* Set background to transparent */
-  border: 2px solid #fff; /* Add a white border */
+  background-color: #272727; /* Set background to transparent */
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -68,6 +93,15 @@ html {
 
 .home-page .section.card .card-body {
   padding: 20px;
+}
+
+.home-page .section.card .card-content {
+  display: flex;
+  align-items: center;
+}
+
+.home-page .section.card .card-text {
+  flex: 1; /* Take up remaining space */
 }
 
 .home-page .section.card .card-title,
@@ -83,6 +117,17 @@ html {
 .home-page .section.card .card-text {
   font-size: 18px;
   line-height: 1.6;
+}
+
+.home-page .card-image {
+  flex-shrink: 0; /* Prevent image from shrinking */
+  margin-left: 20px; /* Add some space between text and image */
+  max-width: 50%; /* Adjust the maximum width of the image */
+}
+
+.home-page .card-img {
+  width: 100%;
+  height: auto;
 }
 
 .home-page .roles-list {
