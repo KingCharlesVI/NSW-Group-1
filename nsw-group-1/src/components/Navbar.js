@@ -12,8 +12,8 @@ const Navbar = () => {
       </div>
       <div className="navbar-right">
         <a href="https://www.youtube.com/channel/UC6HCiNKNSpUJdIdpyDfS4sA" target="_blank" rel="noopener noreferrer">Youtube</a>
-        <a href="https://discord.gg/XSMp5K7djy" target="_blank" rel="noopener noreferrer">Discord</a>
-        <a href="https://nswg1.forumotion.com/" target="_blank" rel="noopener noreferrer" className="signup-link">SIGNUP</a>
+        <a href="https://discord.gg/ZWa7cMkFfT" target="_blank" rel="noopener noreferrer">Discord</a>
+        <a href="https://forms.gle/sfRT16iaWKNBVQwL7" target="_blank" rel="noopener noreferrer" className="signup-link">SIGNUP</a>
       </div>
     </nav>
   );
