@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="navbar-right">
         <a href="https://www.youtube.com/channel/UC6HCiNKNSpUJdIdpyDfS4sA" target="_blank" rel="noopener noreferrer">Youtube</a>
         <a href="https://discord.gg/xTGT2auk" target="_blank" rel="noopener noreferrer">Discord</a>
-        <a href="https://nswdg.pro.unitcommander.co.uk/login" target="_blank" rel="noopener noreferrer" className="signup-link">SIGNUP</a>
+        <a href="https://nswg1.forumotion.com/" target="_blank" rel="noopener noreferrer" className="signup-link">SIGNUP</a>
       </div>
     </nav>
   );
