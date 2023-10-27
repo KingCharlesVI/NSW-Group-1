@@ -29,6 +29,16 @@
   margin: 0;
 }
 
+.logo-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.navbar-logo {
+  height: 30px;
+  margin-right: 10px;
+}
+
 .navbar-right a {
   color: #fff;
   margin-left: 20px;
@@ -52,12 +62,12 @@
   background-position: center;
   padding: 0;
   margin: 0;
-  height: 75vh; /* Set height to 100 viewport height units */
+  height: 100vh; /* Set height to 100 viewport height units */
 }
 
 .home-page .group-name {
   font-size: 48px;
-  margin-top: 12%;
+  margin-top: 15%;
 }
 
 .home-page .banner-buttons a {
