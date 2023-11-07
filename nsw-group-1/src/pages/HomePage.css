@@ -1,0 +1,177 @@
+.home-page {
+  background-color: #1e1e1e; /* Dark grey background */
+  color: #fff;
+}
+
+.home-page h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.home-page p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.navbar {
+  background-color: #1e1e1e;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-left h2 {
+  margin: 0;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.navbar-logo {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.navbar-right a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.navbar-right a:hover {
+  text-decoration: underline;
+}
+
+.navbar-right .signup-link {
+  color: #007bff;
+}
+
+.home-page .banner {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  background-image: url('https://i.imgur.com/n6O0jBB.png'); /* Adjust the path and image as needed */
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  margin: 0;
+  height: 100vh; /* Set height to 100 viewport height units */
+}
+
+.home-page .group-name {
+  font-size: 48px;
+  margin-top: 15%;
+}
+
+.home-page .banner-buttons a {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: transparent; /* Make the background transparent */
+  color: #ffffff;
+  text-decoration: none;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Add a smooth transition */
+  cursor: pointer;
+}
+
+.home-page .banner-buttons a:hover {
+  background-color: #ffffff; /* Change background color on hover */
+  color: #000000; /* Change text color on hover */
+  cursor: pointer;
+}
+
+.home-page .section.card {
+  background-color: #272727; /* Set background to transparent */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%; /* Cards occupy about 60% of the width */
+  overflow: hidden;
+}
+
+.home-page .section.card .card-body {
+  padding: 20px;
+}
+
+.home-page .section.card .card-content {
+  display: flex;
+  align-items: center;
+}
+
+.home-page .section.card .card-text {
+  flex: 1; /* Take up remaining space */
+}
+
+.home-page .section.card .card-title,
+.home-page .section.card .card-text {
+  color: #fff; /* Text color inside cards */
+}
+
+.home-page .section.card .card-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.home-page .section.card .card-text {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.home-page .card-image {
+  flex-shrink: 0; /* Prevent image from shrinking */
+  margin-left: 20px; /* Add some space between text and image */
+  max-width: 50%; /* Adjust the maximum width of the image */
+}
+
+.home-page .card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.home-page .roles-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Center the roles horizontally */
+  flex-wrap: wrap; /* Allow roles to wrap on smaller screens */
+}
+
+.home-page .role {
+  margin: 20px;
+  text-align: center;
+}
+
+.home-page .role img {
+  width: 150px; /* Adjust image size as needed */
+  margin-bottom: 10px; /* Add some space between image and description */
+}
+
+.home-page .role-description {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.home-page .footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.home-page .footer a {
+  color: #007bff;
+  text-decoration: none;
+  margin-left: 10px;
+}

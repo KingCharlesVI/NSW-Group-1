@@ -1,0 +1,20 @@
+.images {
+    padding: 20px;
+  }
+  
+  .images h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .image-container img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+  }
+  
