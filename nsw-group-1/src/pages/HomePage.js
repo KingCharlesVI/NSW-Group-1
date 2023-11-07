@@ -32,7 +32,7 @@ const HomePage = () => {
                 </p>
               </div>
               <div className="card-image">
-                <img src="/images/image-7.png" alt="About Us" className="card-img" />
+                <img src="https://i.imgur.com/vSuAANY.jpg" alt="About Us" className="card-img" />
               </div>
             </div>
           </div>
@@ -54,7 +54,7 @@ const HomePage = () => {
                 </p>
               </div>
               <div className="card-image">
-                <img src="/images/image-6.png" alt="About Us" className="card-img" />
+                <img src="https://i.imgur.com/GAxjGC4.png" alt="About Us" className="card-img" />
               </div>
             </div>
           </div>
@@ -65,11 +65,11 @@ const HomePage = () => {
           <h2 className="card-title">Available Roles</h2>
           <ul className="roles-list">
             <li className="role">
-              <img src="/images/soc.png" alt="Role 1" />
+              <img src="https://i.imgur.com/ZodzUxE.pngg" alt="Role 1" />
               <p className="role-description">Special Warfare Candidate</p>
             </li>
             <li className="role">
-              <img src="/images/woc.png" alt="Role 2" />
+              <img src="https://i.imgur.com/Vd6tnZu.png" alt="Role 2" />
               <p className="role-description">Special Operations Pilot</p>
             </li>
             {/* Add more roles as needed */}
